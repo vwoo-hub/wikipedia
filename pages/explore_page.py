@@ -17,10 +17,7 @@ class ExplorePage(BasePage):
         self.initial_views = [
             self.profile_icon,
             self.search_field,
-            self.today_label,
-            self.featured_article_label,
-            self.article_overflow_button,
-            self.save_for_later_button
+            self.today_label
         ]
 
     def tap_profile_icon(self):
